@@ -41,7 +41,7 @@ class MyHTMLParser(HTMLParser):
 def testFuc():
     parser = MyHTMLParser()
     # open the sample HTML file and read it
-    f = open("samplehtml.html")
+    f = open("./test_files/samplehtml.html")
     if f.mode == "r":
         contents = f.read() # read the entire file
         parser.feed(contents)

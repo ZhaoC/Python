@@ -12,7 +12,7 @@ for i in range(10):
 f.close()
 
 # Open the file back up and read the contents
-f = open("textfile1.txt","r")
+f = open("./test_files/textfile1.txt","r")
 if f.mode == 'r': # check to make sure that the file was opened
 # use the read() function to read the entire file
    # contents = f.read()

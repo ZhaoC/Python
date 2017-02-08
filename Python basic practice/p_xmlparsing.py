@@ -27,7 +27,7 @@ def xmlFuc():
         print (skill.getAttribute("name"))
 
 #write changes to xml file
-    with open('samplexml.xml','w') as f:
+    with open('./test_files/samplexml.xml','w') as f:
         f.write(doc.toxml())
 
 xmlFuc()
